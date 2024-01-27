@@ -1,0 +1,15 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --grey: #D3D3D3;
+  --lighterGrey: #DBDBDB;
+  --green: #55a471;
+}
+
+body{
+  background-color: var(--grey);
+}
