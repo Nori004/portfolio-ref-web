@@ -12,4 +12,23 @@
 
 body{
   background-color: var(--grey);
+
 }
+
+.main-container{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* header{
+  margin: 0;
+  padding: 0;
+}
+
+.image{
+  margin-left: 0;
+}
+*/
+.aboutme{
+  background-image: url("./images/top-sm-right.png");
+} 
