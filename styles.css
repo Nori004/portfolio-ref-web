@@ -8,6 +8,7 @@
   --grey: #D3D3D3;
   --lighterGrey: #DBDBDB;
   --green: #55a471;
+  --black: #000;
 }
 
 body{
@@ -16,19 +17,39 @@ body{
 }
 
 .main-container{
+  display: flex;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
+  width: 1600px;
 }
 
-/* header{
+header{
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: row;
 }
 
 .image{
-  margin-left: 0;
+  margin-right: 0;
+  padding-right: 0;
 }
-*/
+
 .aboutme{
+  margin-left: 0;
+  padding-left: 2rem;
+  padding-right: 8rem;
+  padding-top: 18rem;
   background-image: url("./images/top-sm-right.png");
-} 
+  background-repeat: no-repeat;
+}
+
+.aboutme-text{
+  color: var(--black);
+  text-align: end;
+}
+
+.aboutme-text p{
+  margin-top: 2rem;
+}
